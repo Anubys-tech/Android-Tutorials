@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">SimpleClassDemo</string>
+    <string name="insert">Einfügen</string>
+    <string name="input_your_email">Gib einen Tiernamen ein</string>
+</resources>
