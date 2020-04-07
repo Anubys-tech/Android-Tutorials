@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">DynamicallyGridLayoutDemo</string>
+    <string name="txt_toggled">Toggled:\n</string>
+</resources>
