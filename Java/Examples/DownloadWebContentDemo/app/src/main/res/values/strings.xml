@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">DownloadWebContentDemo</string>
+    <string name="img_show">Zeigen</string>
+    <string name="txt_fail">Fehler</string>
+</resources>
