@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">EggTimer</string>
+    <string name="txt_timer">0:30</string>
+    <string name="txt_null">0</string>
+    <string name="btn_go">GO!</string>
+    <string name="btn_stop">STOP!</string>
+</resources>
