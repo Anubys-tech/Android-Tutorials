@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ModellExampleDemo</string>
+    <string name="txt_user">Benutzer:</string>
+    <string name="txt_description">Beschreibung:</string>
+    <string name="txt_target">Ziel:</string>
+    <string name="txt_info">Info:</string>
+    <string name="txt_title">Details</string>
+</resources>
