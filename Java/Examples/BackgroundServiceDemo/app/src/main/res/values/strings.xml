@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BackgroundServiceDemo</string>
+    <string name="txt_example_service_channel">Example Service Channel</string>
+    <string name="title_example_service">Example Service</string>
+    <string name="button_start_service">Start Service</string>
+    <string name="button_stop_service">Stop Service</string>
+    <string name="hint_input">Input</string>
+</resources>
