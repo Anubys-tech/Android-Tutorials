@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.appcompat.widget.LinearLayoutCompat
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightYellow"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginTop="60dp"
+    tools:context="com.anubys.example.datepickerdialogdemo.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/txt_calculate_your"
+        android:textColor="@color/colorDarkRed"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorLightTürkis"
+        android:padding="10dp"
+        android:text="@string/txt_age"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="@string/txt_in_minutes"
+        android:textColor="@color/colorDarkRed"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_DatePicker"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:background="@color/colorWhite"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorLightGrey"
+        android:text="@string/txt_select_date" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_Selected_Date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorDarkRed"
+        android:layout_marginTop="20sp"
+        android:textSize="20sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorLightGrey2"
+        android:text="@string/txt_selected_date"
+        android:textSize="18sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_Selected_Date_In_Minutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorDarkRed"
+        android:layout_marginTop="20sp"
+        android:textSize="35sp" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/colorLightGrey2"
+        android:text="@string/txt_minute_date"
+        android:textSize="18sp" />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
