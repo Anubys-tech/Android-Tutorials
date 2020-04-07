@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BrainTrainer</string>
+    <string name="btn_play_again">Neu starten</string>
+    <string name="txt_done">Done!</string>
+    <string name="txt_30_secunden">30s</string>
+    <string name="txt_correct">Correct!</string>
+    <string name="txt_wrong">Wrong :(</string>
+    <string name="txt_slash">/</string>
+    <string name="txt_plus">+</string>
+    <string name="txt_0_0">0/0</string>
+    <string name="txt_s">s</string>
+    <string name="txt_leer">%d</string>
+</resources>
