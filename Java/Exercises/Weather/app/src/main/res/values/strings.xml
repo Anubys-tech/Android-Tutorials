@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="title_enter_a_city">Trage eine Stadt Ein</string>
+    <string name="hint_e_g_berlin">z.B. Berlin</string>
+    <string name="btn_temperatur">Temperatur herausfinden</string>
+    <string name="text_0_c">0°C</string>
+    <string name="text_fail">Fehler</string>
+    <string name="text_grad">°C</string>
+    <string name="text_temperature_could_not_be_found">Temperatur konnte nicht gefunden werden</string>
+</resources>
