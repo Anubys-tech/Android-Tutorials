@@ -3,9 +3,7 @@ package com.example.guessvip;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.os.Build;
 import android.os.Bundle;
-import android.security.NetworkSecurityPolicy;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
