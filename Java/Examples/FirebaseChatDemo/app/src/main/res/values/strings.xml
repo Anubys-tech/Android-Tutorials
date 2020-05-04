@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FirebaseChatDemo</string>
+    <string name="txt_your_name">Dein Name</string>
+    <string name="txt_key_in">Hier eintippen …</string>
+    <string name="btn_send">senden</string>
+</resources>
