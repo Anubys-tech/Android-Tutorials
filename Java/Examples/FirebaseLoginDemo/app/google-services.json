@@ -1,0 +1,106 @@
+{
+  "project_info": {
+    "project_number": "1079076821158",
+    "firebase_url": "https://fir-login-1accb.firebaseio.com",
+    "project_id": "fir-login-1accb",
+    "storage_bucket": "fir-login-1accb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079076821158:android:67d1cd07dcf5a9081ebc67",
+        "android_client_info": {
+          "package_name": "com.anubys.example.firebaseconnectiondemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079076821158-25845jd5kopociiuusb9dhokujkvtc07.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAHagLhG00t1_qjD5x2xYDahHCf0jbusQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079076821158-25845jd5kopociiuusb9dhokujkvtc07.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079076821158:android:243e0241246faf631ebc67",
+        "android_client_info": {
+          "package_name": "com.anubys.example.firebaselogin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079076821158-943o5bpb419hchp9chk23our42kpumob.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anubys.example.firebaselogin",
+            "certificate_hash": "1610821be3ef41753573bb012f5dae31a3b77b50"
+          }
+        },
+        {
+          "client_id": "1079076821158-25845jd5kopociiuusb9dhokujkvtc07.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAHagLhG00t1_qjD5x2xYDahHCf0jbusQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079076821158-25845jd5kopociiuusb9dhokujkvtc07.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1079076821158:android:47e79429717b70ff1ebc67",
+        "android_client_info": {
+          "package_name": "com.anubys.example.firebaselogindemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1079076821158-25845jd5kopociiuusb9dhokujkvtc07.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAHagLhG00t1_qjD5x2xYDahHCf0jbusQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1079076821158-25845jd5kopociiuusb9dhokujkvtc07.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
