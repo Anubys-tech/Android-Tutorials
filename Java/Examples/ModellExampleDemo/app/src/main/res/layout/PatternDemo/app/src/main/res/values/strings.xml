@@ -1,7 +1,0 @@
-<resources>
-    <string name="app_name">PatternDemo</string>
-    <string name="check">Prüfen</string>
-    <string name="input_your_email">Gib deine E-Mail-Adresse ein</string>
-    <string name="error">Fehler</string>
-    <string name="correctly">Korrekt</string>
-</resources>
