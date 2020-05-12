@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SharedPreferencesDemo</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="btn_save">Save</string>
+    <string name="btn_load">Load</string>
+    <string name="btn_delete">Delete</string>
+    <string name="txt_daten_erfolgreich_gespeichert_in_preferences">Daten erfolgreich gespeichert in Preferences</string>
+    <string name="txt_daten_erfolgreich_geloescht_aus_preferences">Daten erfolgreich gelöscht aus Preferences</string>
+    <string name="txt_daten_erfolgreich_geladen_aus_preferences">Daten erfolgreich geladen aus Preferences</string>
+    <string name="txt_label_name">Name</string>
+    <string name="txt_label_email">Email</string>
+    <string name="keine_daten_gefunden">Keine Daten gefunden</string>
+</resources>
