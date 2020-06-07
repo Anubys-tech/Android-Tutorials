@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">EventApp</string>
+    <string name="btn_add">Hinzufügen</string>
+    <string name="btn_send">Event Hinzufügen</string>
+    <string name="txt_title">Hier kannst du ein neues Event hinzufügen. \n Trage es einfach in die Felder ein und klick auf Senden. Damit kann jeder benutzer der App das Event sehen.</string>
+    <string name="btnSenden">Event Hinzufügen</string>
+    <string name="hint_place">Ort</string>
+    <string name="hint_event_name">Name des Events</string>
+    <string name="hint_date">Datum</string>
+    <string name="hint_description">Beschreibung</string>
+    <string name="txt_please_enter_a_name">Bitte gib einen Namen an. \n</string>
+    <string name="txt_please_enter_a_place">Bitte gib einen Ort an. \n</string>
+    <string name="txt_please_enter_a_date">Bitte gib einen Datum an. \n</string>
+    <string name="txt_please_enter_a_description">Bitte gib eine Beschreibung an. \n</string>
 </resources>
