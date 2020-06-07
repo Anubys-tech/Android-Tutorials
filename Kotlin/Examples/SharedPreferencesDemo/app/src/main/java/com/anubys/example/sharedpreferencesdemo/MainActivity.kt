@@ -8,24 +8,30 @@ import android.widget.Toast
 
 import kotlinx.android.synthetic.main.activity_main.*
 
-/** @Autor Created by Anubys on the 11.05.2020 */
+/** @Author Created by Anubys on the 11.05.2020
+ *  Update: 16.05.2020
+ *  */
 
 
 class MainActivity : AppCompatActivity() {
-    private val tag = AppPreference::class.java.simpleName
-
-    private var appPreferences: AppPreference? = null
+    private val tag = MainActivity::class.java.simpleName
 
 
+    //* ************************************************ *
+    //*               L I F E - C Y C L E                *
+    //* ************************************************ *
     override fun onCreate(savedInstanceState: Bundle?) {
         Log.i(tag, "OnCreate")
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        appPreferences = AppPreference(this)
 
         setListener()
     }
 
+
+    //* ************************************************ *
+    //*         H E L P E R  -  M E T H O D S            *
+    //* ************************************************ *
     private fun setListener() {
         Log.i(tag, "setListener")
         btn_save.setOnClickListener { save() }
@@ -35,27 +41,24 @@ class MainActivity : AppCompatActivity() {
 
     private fun save() {
         Log.i(tag, "save")
-        val name: String = edt_name.text.toString()
-        val email: String = edt_email.text.toString()
-
-        appPreferences?.saveName(name)
-        appPreferences?.saveEmail(email)
+        sharedPreferences.name = edt_name.text.toString()
+        sharedPreferences.email = edt_email.text.toString()
 
         Toast.makeText(this, getString(R.string.txt_daten_erfolgreich_gespeichert_in_preferences), Toast.LENGTH_LONG).show()
     }
 
     private fun load() {
         Log.i(tag, "laod")
-        if (appPreferences?.loadName() != null) tv_txt_name.text = appPreferences?.loadName() else tv_txt_name.text = resources.getString(R.string.keine_daten_gefunden)
-        if (appPreferences?.loadEmail() != null) tv_txt_email.text = appPreferences?.loadEmail() else tv_txt_email.text = resources.getString(R.string.keine_daten_gefunden)
+        tv_txt_name.text = sharedPreferences.name
+        tv_txt_email.text = sharedPreferences.email
 
         Toast.makeText(this, getString(R.string.txt_daten_erfolgreich_geladen_aus_preferences), Toast.LENGTH_LONG).show()
     }
 
     private fun delete() {
         Log.i(tag, "delete")
-        appPreferences?.deleteName()
-        appPreferences?.deleteEmail()
+        sharedPreferences.removeName()
+        sharedPreferences.removeEmail()
 
         Toast.makeText(this, getString(R.string.txt_daten_erfolgreich_geloescht_aus_preferences), Toast.LENGTH_LONG).show()
     }
