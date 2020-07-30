@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable name="viewmodel"
+                  type="com.anubys.example.mvvmdemo.ui.home.HomeViewModel"/>
+    </data>
+
+    <RelativeLayout
+        android:id="@+id/drawer_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+        tools:context=".ui.home.HomeActivity">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@{viewmodel.user.email}"
+            tools:text="probelalkhan@gmail.com"
+            android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+            android:layout_centerInParent="true" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/btn_logout"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/textViewEmail"
+            android:onClick="@{(v) -> viewmodel.logout(v)}" />
+
+    </RelativeLayout>
+</layout>

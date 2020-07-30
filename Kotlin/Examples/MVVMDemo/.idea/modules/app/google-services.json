@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1001812858645",
+    "firebase_url": "https://mvvmlogindemo.firebaseio.com",
+    "project_id": "mvvmlogindemo",
+    "storage_bucket": "mvvmlogindemo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1001812858645:android:88b1491af9dd3c91a17b1c",
+        "android_client_info": {
+          "package_name": "com.anubys.example.mvvmdemo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1001812858645-bbfivlhkfd32gdns2fvsrh1imup1s6am.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.anubys.example.mvvmdemo",
+            "certificate_hash": "1610821be3ef41753573bb012f5dae31a3b77b50"
+          }
+        },
+        {
+          "client_id": "1001812858645-1born50as9d7o60l3ipr5a8micph15b2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCScLmOJyWrKIf2nL9JX-GvNb1xgVbXgB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1001812858645-1born50as9d7o60l3ipr5a8micph15b2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
