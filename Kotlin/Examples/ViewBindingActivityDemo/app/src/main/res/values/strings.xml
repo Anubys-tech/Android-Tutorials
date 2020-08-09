@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ViewBindingDemo</string>
+    <string name="btn_click_me">Click me</string>
+    <string name="hint_type_here">Input Text</string>
+    <string name="txt_show">show</string>
+    <string name="txt_subscribe_it">Subscribe it</string>
+    <string name="btn_go_to_subscribe">Go to Subscribe</string>
+</resources>
