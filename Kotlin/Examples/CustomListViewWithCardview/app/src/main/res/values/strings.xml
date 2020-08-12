@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CustomListViewWithCardview</string>
+    <string name="txt_title">Title Text</string>
+    <string name="txt_details">Details Text</string>
+</resources>
