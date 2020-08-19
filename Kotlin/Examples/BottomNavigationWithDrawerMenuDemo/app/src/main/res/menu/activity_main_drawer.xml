@@ -23,4 +23,5 @@
             android:icon="@drawable/ic_menu_settings"
             android:title="@string/menu_setting" />
     </group>
+
 </menu>

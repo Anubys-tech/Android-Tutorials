@@ -19,11 +19,11 @@ import com.anubys.example.bottomnavigationwithdrawermenudemo.R
 class SettingFragment : Fragment(){
     private val tagFragment = SettingFragment::class.java.simpleName
 
-    private lateinit var homeViewModel: SettingsViewModel
+    private lateinit var homeViewModel: SettingViewModel
 
     override fun onCreateView(inflater: LayoutInflater, container: ViewGroup?, savedInstanceState: Bundle?): View? {
         Log.d(tagFragment, "TAG - SettingFragment - onCreateView()")
-        homeViewModel = ViewModelProvider(this).get(SettingsViewModel::class.java)
+        homeViewModel = ViewModelProvider(this).get(SettingViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_setting, container, false)
         val textView: TextView = root.findViewById(R.id.text_setting)
         homeViewModel.text.observe(viewLifecycleOwner, Observer {
