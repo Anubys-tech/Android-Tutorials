@@ -11,9 +11,7 @@ import android.view.ViewGroup
 
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import androidx.viewpager2.widget.ViewPager2
 
-import kotlinx.android.synthetic.main.fragment_second_screen.view.*
 import kotlinx.android.synthetic.main.fragment_third_screen.view.*
 
 
