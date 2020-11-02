@@ -1,4 +1,4 @@
-package com.anubys.example.stopwatch
+package com.anubys.examples.stopwatchdemo
 
 /** @Author Created by Anubys on the 11.10.2020 */
 
@@ -8,7 +8,9 @@ import android.util.Log
 import android.view.View
 import android.view.animation.Animation
 import android.view.animation.AnimationUtils
+
 import androidx.appcompat.app.AppCompatActivity
+
 import kotlinx.android.synthetic.main.activity_main.*
 
 
