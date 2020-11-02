@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ChatBotApp</string>
+    <string name="text_send_message">This is a sample message that will appear</string>
+    <string name="text_send_bot_message">This is a sample message that will appear</string>
+    <string name="btn_send">Send</string>
+    <string name="text_input_type_a_message">Type a message...</string>
+</resources>
