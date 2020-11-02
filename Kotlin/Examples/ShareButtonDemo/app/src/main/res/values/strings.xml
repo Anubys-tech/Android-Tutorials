@@ -1,8 +1,9 @@
 <resources>
+
     <string name="app_name">ShareButtonDemo</string>
     <string name="text_share">Das ist ein Beispiel zum Share!</string>
     <string name="btn_share">Share to other Apps</string>
-    <string name="text_share_content">Lade dir über folgenden Link Zeiterfassung-App im Google Play Store herunter:</string>
+    <string name="text_share_content">Lade dir über folgenden Link "Name"-App im Google Play Store herunter:</string>
     <string name="text_share_link">http://play.google.com/store/apps/details?id=</string>
 
 </resources>

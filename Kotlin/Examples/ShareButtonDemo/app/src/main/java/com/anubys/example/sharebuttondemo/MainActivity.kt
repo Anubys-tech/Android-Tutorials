@@ -4,10 +4,9 @@ package com.anubys.example.sharebuttondemo
 
 import android.os.Bundle
 import android.util.Log
+import android.widget.Button
 
 import androidx.appcompat.app.AppCompatActivity
-
-import com.anubys.example.sharebuttondemo.R
 
 
 class MainActivity : AppCompatActivity() {
@@ -32,6 +31,8 @@ class MainActivity : AppCompatActivity() {
     private fun setListener() {
         Log.d(tagFragment, "TAG - MainActivity - setListener()")
 
-
+        findViewById<Button>(R.id.btn_share).setOnClickListener {
+            Share(this)
+        }
     }
 }
