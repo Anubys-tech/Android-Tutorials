@@ -1,6 +1,6 @@
 package com.anubys.example.countdowntimerapp
 
-/** @Autor Created by Anubys on the 09.05.2020 */
+/** @Author Created by Anubys on the 09.05.2020 */
 
 
 class AppConstants {

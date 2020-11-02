@@ -4,7 +4,7 @@ import android.os.Bundle
 
 import androidx.preference.PreferenceFragmentCompat
 
-/** @Autor Created by Anubys on the 09.05.2020 */
+/** @Author Created by Anubys on the 09.05.2020 */
 
 
 class SettingsActivityFragment : PreferenceFragmentCompat() {

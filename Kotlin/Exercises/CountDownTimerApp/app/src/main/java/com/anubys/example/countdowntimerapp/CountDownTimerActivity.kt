@@ -15,12 +15,10 @@ import androidx.appcompat.app.AppCompatActivity
 import com.anubys.example.countdowntimerapp.util.NotificationUtil
 import com.anubys.example.countdowntimerapp.util.PreferenceUtil
 
-import kotlinx.android.synthetic.main.activity_main.*
-import kotlinx.android.synthetic.main.content_main.*
 
 import java.util.*
 
-/** @Autor Created by Anubys on the 07.05.2020 */
+/** @Author Created by Anubys on the 07.05.2020 */
 
 
 class CountDownTimerActivity : AppCompatActivity() {
@@ -217,7 +215,7 @@ class CountDownTimerActivity : AppCompatActivity() {
     private fun updateButtons() {
         Log.v(tag, "TAG - CountDownTimerActivity - updateButtons()")
         when (timerState) {
-            TimerState.Running ->{
+            TimerState.Running -> {
                 fab_play.isEnabled = false
                 fab_pause.isEnabled = true
                 fab_stop.isEnabled = true

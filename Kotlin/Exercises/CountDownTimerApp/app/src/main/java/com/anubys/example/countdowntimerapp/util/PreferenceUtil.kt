@@ -4,7 +4,7 @@ import android.content.Context
 import android.preference.PreferenceManager
 import com.anubys.example.countdowntimerapp.CountDownTimerActivity
 
-/** @Autor Created by Anubys on the 07.05.2020 */
+/** @Author Created by Anubys on the 07.05.2020 */
 
 
 class PreferenceUtil {

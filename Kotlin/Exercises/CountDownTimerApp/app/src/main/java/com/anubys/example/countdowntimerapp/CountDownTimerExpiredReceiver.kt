@@ -7,7 +7,7 @@ import android.content.Intent
 import com.anubys.example.countdowntimerapp.util.NotificationUtil
 import com.anubys.example.countdowntimerapp.util.PreferenceUtil
 
-/** @Autor Created by Anubys on the 07.05.2020 */
+/** @Author Created by Anubys on the 07.05.2020 */
 
 
 class CountDownTimerExpiredReceiver : BroadcastReceiver() {

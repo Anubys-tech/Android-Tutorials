@@ -21,7 +21,7 @@ import com.anubys.example.countdowntimerapp.CountDownTimerNotificationActionRece
 import java.text.SimpleDateFormat
 import java.util.*
 
-/** @Autor Created by Anubys on the 09.05.2020 */
+/** @Author Created by Anubys on the 09.05.2020 */
 
 
 class NotificationUtil {

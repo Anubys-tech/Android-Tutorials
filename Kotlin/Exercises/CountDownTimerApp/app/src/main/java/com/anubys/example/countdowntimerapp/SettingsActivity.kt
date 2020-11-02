@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 
 import kotlinx.android.synthetic.main.activity_main.*
 
-/** @Autor Created by Anubys on the 09.05.2020 */
+/** @Author Created by Anubys on the 09.05.2020 */
 
 
 class SettingsActivity : AppCompatActivity() {
