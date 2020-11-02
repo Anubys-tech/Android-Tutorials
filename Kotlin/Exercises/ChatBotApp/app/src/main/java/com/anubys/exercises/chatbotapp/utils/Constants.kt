@@ -4,8 +4,8 @@ package com.anubys.exercises.chatbotapp.utils
 
 
 /**
- * DE:
- * EN:
+ * DE: Hier werden globale Variablen für die App definiert.
+ * EN: Global variables for the app are defined here.
  */
 object Constants {
     const val SEND_ID = "SEND_ID"
