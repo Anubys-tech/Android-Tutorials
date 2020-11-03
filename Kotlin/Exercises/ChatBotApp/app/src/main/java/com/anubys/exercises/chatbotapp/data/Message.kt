@@ -7,4 +7,4 @@ package com.anubys.exercises.chatbotapp.data
  * DE:
  * EN:
  */
-data class Message  (val id: String, val message: String, val time: String)
+data class Message(val message: String, val id: String, val time: String)
