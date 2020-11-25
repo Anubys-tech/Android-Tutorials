@@ -11,7 +11,7 @@ import androidx.room.RoomDatabase
 
 
 @Database(entities = [Vocabulary::class], version = 1, exportSchema = false)
-abstract class VocabularyDataBase(): RoomDatabase() {
+abstract class VocabularyDataBase : RoomDatabase() {
 
     abstract val vocDao: VocabularyDAO
 
