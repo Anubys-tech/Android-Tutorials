@@ -73,6 +73,7 @@ class FirstFragment : Fragment() {
         adapter.setOnItemLongClickListener(object: OnItemLongClickListener {
             override fun setOnItemLongClickListener(position: Int) {
                 Log.d(tagFragment, "TAG - FirstFragment - setOnItemLongClickListener()")
+
                 startAlarmDialog(adapter.list[position])
             }
         })

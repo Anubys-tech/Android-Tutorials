@@ -79,6 +79,7 @@ class FirstViewModel(application: Application) : AndroidViewModel(application) {
 
     private fun Date.toStringFormat(pattern:String="dd.MM.yyyy"): String {
         Log.d(tagViewModel, "TAG - FirstViewModel - toStringFormat()")
+
         return (SimpleDateFormat(pattern, Locale.GERMANY).format(this))
     }
 }

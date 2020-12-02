@@ -103,7 +103,7 @@ class AppRepository(application: Application) {
     }
 
     /**
-     * DE: Überwacht und benachrichtiget bei Änderung der Vokabelliste.
+     * DE: Überwacht und benachrichtigt bei Änderung der Vokabelliste.
      * EN: Monitors and notifies when the vocabulary list changes.
      */
     fun getLiveDataVocabulary(): LiveData<List<Vocabulary>> = vocabularyDao.getLiveDataVocList()
