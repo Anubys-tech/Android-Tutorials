@@ -3,9 +3,6 @@ package com.anubys.exercises.chatbotapp.utils
 /** @Author Created by Anubys on the 02.11.2020 */
 
 import android.util.Log
-import java.sql.Timestamp
-import java.text.SimpleDateFormat
-import java.util.*
 
 import com.anubys.exercises.chatbotapp.utils.Constants.OPEN_GOOGLE
 import com.anubys.exercises.chatbotapp.utils.Constants.OPEN_SEARCH
@@ -21,12 +18,15 @@ object BotResponse {
 
     fun basicResponses(_message: String): String {
         Log.d(tag,"TAG - BotResponse - basicResponses()")
+
         val random = (0..2).random()
         val message =_message.toLowerCase()
 
         return when {
             //Flips a coin
             message.contains("flip") && message.contains("coin") -> {
+                Log.d(tag,"TAG - BotResponse - flip/coin")
+
                 val r = (0..1).random()
                 val result = if (r == 0) "heads" else "tails"
 
@@ -34,6 +34,8 @@ object BotResponse {
             }
             //Math calculations
             message.contains("solve") -> {
+                Log.d(tag,"TAG - BotResponse - solve")
+
                 val equation: String? = message.substringAfterLast("solve")
                 return try {
                     val answer = SolveMath.solveMath(equation ?: "0")
@@ -45,6 +47,8 @@ object BotResponse {
             }
             //Hello
             message.contains("hello") -> {
+                Log.d(tag,"TAG - BotResponse - hello")
+
                 when (random) {
                     0 -> "Hello there!"
                     1 -> "Sup"
@@ -53,6 +57,8 @@ object BotResponse {
             }
             //How are you?
             message.contains("how are you") -> {
+                Log.d(tag,"TAG - BotResponse - how are you")
+
                 when (random) {
                     0 -> "I'm doing fine, thanks!"
                     1 -> "I'm hungry..."
@@ -62,18 +68,26 @@ object BotResponse {
             }
             //What time is it?
             message.contains("time") && message.contains("?") -> {
+                Log.d(tag,"TAG - BotResponse - time")
+
                 Time.timeStamp()
             }
             //Open Google
             message.contains("open") && message.contains("google") -> {
+                Log.d(tag,"TAG - BotResponse - open/google")
+
                 OPEN_GOOGLE
             }
             //Search on the internet
             message.contains("search") -> {
+                Log.d(tag,"TAG - BotResponse - search")
+
                 OPEN_SEARCH
             }
             //When the programme doesn't understand...
             else -> {
+                Log.d(tag,"TAG - BotResponse - don´t understand")
+
                 when (random) {
                     0 -> "I don't understand..."
                     1 -> "Try asking me something different"

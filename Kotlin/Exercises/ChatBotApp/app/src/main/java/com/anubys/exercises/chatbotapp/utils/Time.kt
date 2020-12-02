@@ -18,6 +18,7 @@ object Time {
 
     fun timeStamp(): String {
         Log.d(tag,"TAG - Time - timeStamp()")
+
         val timeStamp = Timestamp(System.currentTimeMillis())
         val simpleDateFormat = SimpleDateFormat("HH:mm", Locale.ENGLISH)
         val time = simpleDateFormat.format(Date(timeStamp.time))

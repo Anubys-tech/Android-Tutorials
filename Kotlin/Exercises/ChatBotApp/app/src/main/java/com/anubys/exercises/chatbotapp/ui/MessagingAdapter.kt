@@ -56,6 +56,7 @@ class MessagingAdapter : RecyclerView.Adapter<MessagingAdapter.MessageViewHolder
 
     override fun getItemCount(): Int {
         Log.d(tag,"TAG - MessageAdapter - getItemCount()")
+
         return (messageList.size)
     }
 
@@ -75,13 +76,18 @@ class MessagingAdapter : RecyclerView.Adapter<MessagingAdapter.MessageViewHolder
     //*                     C L A S S                     *
     //* ************************************************* *
     inner class MessageViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        private val tag = MessageViewHolder::class.java.simpleName
+
         init {
+            Log.d(tag,"TAG - MessageViewHolder - init()")
+
             itemView.setOnClickListener {
+                Log.d(tag,"TAG - MessageViewHolder - setOnClickListener()")
+
                 //Remove message on the item clicked
                 messageList.removeAt(adapterPosition)
                 notifyItemRemoved(adapterPosition)
             }
         }
     }
-
 }
