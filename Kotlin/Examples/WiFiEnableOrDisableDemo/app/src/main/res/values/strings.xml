@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">WiFiEnableOrDisableDemo</string>
+    <string name="btn_enable_wifi">Enable Wifi</string>
+    <string name="btn_disable_wifi">Disable Wifi</string>
+</resources>
