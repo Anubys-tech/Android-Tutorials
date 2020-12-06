@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CarouselRecyclerViewDemo</string>
+    <string name="txt_flight">Flugzeuge</string>
+    <string name="txt_car">Autos</string>
+    <string name="txt_food">Essen</string>
+    <string name="txt_gas">Gas</string>
+    <string name="txt_home">Home</string>
+</resources>

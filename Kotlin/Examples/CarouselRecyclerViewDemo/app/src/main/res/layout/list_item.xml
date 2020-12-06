@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_margin="24dp"
+    android:paddingStart="24dp"
+    android:paddingTop="64dp"
+    android:paddingEnd="24dp"
+    android:paddingBottom="64dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/list_item_background"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/icon_background_blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/list_item_icon"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_centerInParent="true"
+        app:layout_constraintBottom_toBottomOf="@+id/list_item_background"
+        app:layout_constraintEnd_toEndOf="@+id/list_item_background"
+        app:layout_constraintStart_toStartOf="@+id/list_item_background"
+        app:layout_constraintTop_toTopOf="@+id/list_item_background" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/list_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/list_item_background"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/blue"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/list_item_background" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
