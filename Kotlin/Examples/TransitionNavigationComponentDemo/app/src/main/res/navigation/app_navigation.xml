@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigation"
+    app:startDestination="@id/startFragment">
+
+    <fragment
+        android:id="@+id/startFragment"
+        android:name="com.anubys.example.transitionnavigationcomponentdemo.StartFragment"
+        android:label="StartFragment"
+        tools:layout="@layout/fragment_start">
+
+        <action
+            android:id="@+id/action_start_parent"
+            app:destination="@id/parentFragment" />
+
+        <action
+            android:id="@+id/action_start_recyclerview"
+            app:destination="@id/recyclerViewFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/parentFragment"
+        android:name="com.anubys.example.transitionnavigationcomponentdemo.ParentFragment"
+        android:label="ParentFragment"
+        tools:layout="@layout/fragment_parent">
+
+        <action
+            android:id="@+id/action_parent_details"
+            app:destination="@id/detailFragment" />
+        <action
+            android:id="@+id/action_parentFragment_to_startFragment"
+            app:destination="@id/startFragment"
+            app:popUpTo="@id/parentFragment"
+            app:popUpToInclusive="true" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/detailFragment"
+        android:name="com.anubys.example.transitionnavigationcomponentdemo.DetailFragment"
+        android:label="DetailFragment"
+        tools:layout="@layout/fragment_parent" >
+        <action
+            android:id="@+id/action_detailFragment_to_parentFragment"
+            app:destination="@id/parentFragment"
+            app:popUpTo="@id/detailFragment"
+            app:popUpToInclusive="true" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/recyclerViewFragment"
+        android:name="com.anubys.example.transitionnavigationcomponentdemo.RecyclerViewFragment"
+        android:label="RecyclerViewFragment"
+        tools:layout="@layout/fragment_recycler_view">
+
+        <action
+            android:id="@+id/action_recyclerview_itemdetail"
+            app:destination="@id/itemDetailFragment" />
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/itemDetailFragment"
+        android:name="com.anubys.example.transitionnavigationcomponentdemo.ItemDetailFragment"
+        android:label="ItemDetailFragment"
+        tools:layout="@layout/fragment_item_detail">
+
+        <argument
+            android:name="id"
+            app:argType="string" />
+
+    </fragment>
+
+</navigation>
